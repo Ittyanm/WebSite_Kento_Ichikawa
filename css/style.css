@@ -1,0 +1,92 @@
+﻿@charset "utf-8";
+/* 文字コードを"utf-8"にして保存 */
+/* 雛形 */
+*{
+	margin: 0px;
+	padding: 0px;/* 内側に余白をつける */
+}
+/* bodyタグの説明 */
+body{
+	background-color: #140a00;/* 背景色の設定 */
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	color: #FFFFFF;/* 文字の色の設定 */
+	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,Verdana,'MS　Pゴシック',sans-serif;
+}
+
+/* ナビゲーションバー */
+nav{
+	overflow: hidden;/* 上いっぱいまで広げる */
+	background: #140a00;
+	margin-bottom: 30px;
+	position: fixed;
+	width: 100%;
+}
+nav li{
+	float: left;
+	list-style-type: none;
+}
+nav a{
+	text-decoration: none;/* リンクの下線を取る */
+	border: none;
+	color: #FFFFFF;
+	background: transparent;
+	border-radius: 0px;/* 枠線を角丸にする */
+	display: block;
+	padding: 10px;
+	transition: 0.5s;
+}
+nav a:hover{/* マウスオーバーした時の動作 */
+	background: #000000;
+	color: #FF8700;
+}
+
+/* サブナビケーションバー */
+#subnav{
+	overflow: hidden;/* 上いっぱいまで広げる */
+	background: #FF8700;
+	margin-bottom: 0px;
+	font-size: 14px;
+	width: 100%;
+}
+#subnav li{
+	float: left;
+	list-style-type: none;
+}
+#subnav a{
+	text-decoration: none;/* リンクの下線を取る */
+	border: none;
+	color: #140a00;
+	background: transparent;
+	border-radius: 0px;/* 枠線を角丸にする */
+	display: inline;
+	padding: 10px;
+	transition: 0.5s;
+}
+#subnav a:hover{/* マウスオーバーした時の動作 */
+	background: #000000;
+	color: #FF8700;
+}
+/* ナビゲーションを固定するもの */
+.inner_container{
+	width: 900ox;
+	margin: none;
+}
+/* id=containerの説明 */
+.container{
+	width: 1000px;
+	margin: auto;
+	overflow: hidden;
+	padding-top: 0px;
+}
+/* imgの説明 */
+img{
+	margin: 100px 0;
+	padding: 10px;
+	}
+/* h1タグの説明 */
+h1{
+	background-color: #FF8700;
+
+}
